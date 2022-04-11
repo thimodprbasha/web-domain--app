@@ -1,0 +1,40 @@
+<!-- ======= Hero Section ======= -->
+<main id="main">
+  <section id="pricing" class="pricing">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Pricing</h2>
+        <h3>Check our <span>Pricing</span></h3>
+        <p>Affordable plan, great for personal projects.</p>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        {{#each plans}}
+
+          <div
+            class="col-lg-3 col-md-6 mt-4 mt-md-0"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="box featured">
+              <h3>{{name}}</h3>
+              <h4><sup>$</sup>{{priceDetails.price}}<span
+                >/{{priceDetails.date}}</span></h4>
+              <ul>
+                {{#each details}}
+                  <li>{{this}}</li>
+                {{/each}}
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        {{/each}}
+      </div>
+
+    </div>
+  </section><!-- End Pricing Section -->
+</main><!-- End #main -->

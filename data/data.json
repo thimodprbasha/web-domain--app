@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Business",
+    "priceDetails": {
+      "date": "month",
+      "price": "19"
+    },
+    "details": [
+      "BASIC Performance",
+      "Single Website",
+      "Unlimited Space & Traffic",
+      "Powered by renewable energy"
+    ]
+  },
+  {
+    "name": "Developer",
+    "priceDetails": {
+      "date": "month",
+      "price": "29"
+    },
+    "details": [
+      "ADVANCED Performance",
+      "Unlimited Websites",
+      "Unlimited Space & Traffic",
+      "Powered by renewable energy",
+      "Unlimited Email Accounts"
+    ]
+  },
+  {
+    "name": "Advanced",
+    "priceDetails": {
+      "date": "month",
+      "price": "49"
+    },
+    "details": [
+      "FASTEST Performance",
+      "Unlimited Websites",
+      "Unlimited Space & Traffic",
+      "Powered by renewable energy",
+      "Standard Hosting Features",
+      "Free Site Migration ",
+      "Free SSL Certificate ",
+      "Premium Features "
+    ]
+  }
+]
