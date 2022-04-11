@@ -7,6 +7,7 @@ const config = new Pool({
     database: env.DB.DATABASE,
     password:  env.DB.PASSWORD,
     port: env.DB.PORT,
+    ssl: true,
 })
 
 module.exports.initializeDB = function(){
